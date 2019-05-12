@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int PROFONDEUR = 17,premier= pow(2, PROFONDEUR);
+const int PROFONDEUR = 17,premier= 1 << PROFONDEUR;
 
 int maximal[premier*2];
 
